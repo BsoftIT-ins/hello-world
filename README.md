@@ -54,3 +54,19 @@ for ( $x = 0; $x <= 10; $x++){
   echo "The Number is: $x <br>";
 }
 ?>
+
+Foreach Loop
+-------------
+foreach ($array as $value) {
+  code to be executed;
+} 
+
+
+Example: 
+--------
+<?php
+$colors = array ("Red", "Blue", "White", "Green") 
+foreach ($colors as $value ){
+  echo "$value <br>";
+}
+?>
