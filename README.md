@@ -39,3 +39,18 @@ do{
   $x++;
 } while ($x <= 5 );
 ?>
+
+For Loop
+---------
+for (init counter; test counter; increment counter) {
+  code to be executed for each iteration;
+} 
+
+Example: 
+------------
+
+<?php
+for ( $x = 0; $x <= 10; $x++){
+  echo "The Number is: $x <br>";
+}
+?>
